@@ -1,11 +1,11 @@
 do
 
 function run(msg, matches)
-  return [[TeleManagerPlus
+  return [[Soft_TG
   
-  Bot Version : 2.2.0
+  Bot Version : 2.0.0
   
-  For more Information send /telemanagerplus to chat ]]
+  For more Information send /help to chat ]]
 end
 
 return {
