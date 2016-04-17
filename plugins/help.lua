@@ -20,9 +20,9 @@ local mods = [[
 
 !res [Reply]
 
-!lock [ads | name | tag | leave | badw | member | chat | farsi | bots]
+!lock [ads | name | tag | leave | badw | member | chat | farsi | bots| english | join | username ]
 
-!unlock [ads | name | tag | leave | badw | member | chat | farsi | bots]
+!unlock [ads | name | tag | leave | badw | member | chat | farsi | bots | english | join | username]
 
 !all
 
