@@ -4,7 +4,7 @@ function run(msg, matches)
 
 local mods = [[ 
 راهنما فارسی مدیران :
-@telemanager_ch
+@Soft_TG
 
 !kick [Username | ID | Reply]
 
@@ -65,7 +65,7 @@ member
  local admin = [[ 
  
  راهنمای فارسی ادمین ها :
- @telemanager_ch
+ @Soft_TG
  
  !banall [Reply | ID | Username]
  
@@ -108,7 +108,7 @@ member
  local owner = [[
  
  راهنمای فارسی صاحبان گروه :
- @telemanager_ch
+ @Soft_TG
  
  !promote [Reply | ID | Username]
  
@@ -141,7 +141,7 @@ member
  local member = [[
  
  راهنمای فارسی عضو ها :
- @telemanager_ch
+ @Soft_TG
  
  !calc [formula]
  
@@ -167,7 +167,9 @@ member
  
  !share
  
- !telemanagerplus
+ !weater [city]
+ 
+ !praytime [city]
  
  !sticker [TXT]
  ==========================
@@ -187,7 +189,7 @@ member
  local sudo = [[
  
  راهنما فارسی سودو ها :
- @telemanager_ch
+ @Soft_TG
  
  !addadmin [ID | Username]
  
@@ -270,6 +272,7 @@ return {
 	"^!(help) (mod)$",
 	"^!(help) (owner)$",
 	"^!(help) (member)$",
+	"^!(help) (sudo)$",
   }, 
   run = run 
 }
