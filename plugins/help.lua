@@ -8,6 +8,12 @@ local mods = [[
 
 !kick [Username | ID | Reply]
 
+!kickinactive [ID | Reply | Username]
+
+!mute [ ID | Reply | Username]
+
+!unmute [ ID | Reply | Username]
+
 !ban [username | ID | Reply]
 
 !unban [Username | ID | Reply]
@@ -43,6 +49,7 @@ local mods = [[
 !info [Username | ID | Reply]
 
 !plugins [-+] (Plug Name) chat
+
 
 ==========================
 به علاوه تمامی دستورات رنک :
