@@ -65,7 +65,7 @@ member
 
 !help member
 راهنمای اعضای معمولی
-
+به زودی با ساپورت کامل سوپرگروه
  ]]
 
  
@@ -173,6 +173,8 @@ member
  !feedback [msg]
  
  !share
+ 
+ !shortlink [link]
  
  !weater [city]
  
