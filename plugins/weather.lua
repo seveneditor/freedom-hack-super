@@ -50,10 +50,10 @@ end
 
 return {
   description = "weather in that city (Madrid is default)",
-  usage = "weather (city)",
+  usage = "!weather (city)",
   patterns = {
-    "^weather$",
-    "^weather (.*)$"
+    "^!weather$",
+    "^!weather (.*)$"
   },
   run = run
 }
